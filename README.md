@@ -10,7 +10,7 @@ When you run easyStration, it will prompt you for a filename that contains infor
 	(Major 2)
 	(Minor)
 	(Course history)
-	(GEs yet to fulfill)
+	(Unfulfilled GE areas)
 	(Time preference: morning, afternoon, and/or evening)
 	(Campus preference)
 	(Whether you are seeking to fulfill more major or GE classes this semester)
@@ -214,7 +214,6 @@ RUSS187: EverydayLifeintheUSSR; Majors: [ALAN, IR, RUSS]; Time: --T-R--: 1315–
 
 ### Constructors
 ```java
-CourseGraph()
 CourseGraph(String majorArea)
 ```
 Initializes a course graph by associating it with a specific major area.
@@ -289,7 +288,7 @@ Sorts courses by descending score.
 
 ---
 
-## 🔧 Other Features in easyStration class
+## easyStration
 
 Variables include:
     - Map<String, Course> courseArray (a hashmap mapping courseID to Course object)
