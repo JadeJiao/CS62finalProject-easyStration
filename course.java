@@ -2,6 +2,8 @@
  * The Course class represents a single college course offered in the semester.
  * It contains information such as course ID, name, schedule, campus,
  * GE requirements, majors it fulfills, and prerequisites.
+ *
+ *@author Jade Jiao, Diane Nguyen
  */
 
  import java.util.ArrayList;
