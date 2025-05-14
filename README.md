@@ -16,7 +16,7 @@ When you run easyStration, it will prompt you for a filename that contains infor
 	(Whether you are seeking to fulfill more major or GE classes this semester)
 	
 We have placed multiple sample user files in the package, which you should use to run our code. If you decide to create your own file, keep the following instructions in mind:
-Your major and minor must follow the standard major code (2-4 capital letters) for each major: e.g. ECON, CSCI, MUS
+Your major and minor must follow the standard major code (2-4 capital letters) for each major: e.g. ECON, CSCI, MUS.
 Your course history must be a list with no spaces, with courses separated by commas. Each course must follow the standard courseID format (major code+3-digit course number, e.g. MATH032). Sometimes there can be a letter after the course number, a.k.a CSCI005L for lab. 
 List your unfulfilled GE areas as a list with no spaces separated by commas, by using the code designated for each GE area. For example, Pomona College Area 5 (Quantitative Reasoning) must be written as 1A5.
 For time preference, list “morning”, “afternoon”, and “evening” in the order of preference as a list without spaces separated by commas. If you are not willing to consider one of those time slots, do not list it.
@@ -24,6 +24,7 @@ For campus preference, list the seven campus codes (e.g. PO or HM, not the campu
 On the last line, write either “major”, “GEs” or “both”, depending on whether you are more desperate about advancing your major requirements or your GE requirements that semester. If no preference, put “both”.
 
 easyStration will then process the data set containing the entire course catalog for Fall 2024. 
+
 As a first feature, it will ask you for a course for which you would like to check your eligibility. Make sure to, once again, indicate the courseID in the standardized format, which are the two to four capital letters for the major code followed by the course number (e.g. CSCI054). Otherwise, the system will not find your course. If the course you inputted exists in your catalog, the system will tell you whether you are eligible to take the course based on the courses you have already taken and the course’s prerequisites. It will keep prompting you for courses to check until you enter “next”.
 For example, here is my sample output:
 
