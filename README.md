@@ -70,10 +70,10 @@ where each line contains information about a course including courseID, course n
 
 It will then ask you the major you are interested in investigating. For this part, you are not compelled to enter the major you are pursuing—this can be any major area whose course layout you would like to see. The system will then print out each individual course in the major and if the course is a prerequisite for further courses, it will show this by linking that course and those further courses with an arrow. For example, say I am interested to see the output for chemistry, then this is the output I would get:
 
-Which major are you interested in? 
-
 ```text
+Which major are you interested in? 
 CHEM
+
 The courses for the CHEM major (and the following courses each allows you to take)
 -------------------------------------
 CHEM014L -> CHEM122
@@ -107,9 +107,10 @@ CHEM171
 CHEM191
 ```
 
-Which is a list of all chemistry courses and the courses for which they are prerequisites, if any. Note that it is normal for courses from other areas (such as math and biology) to also appear if they help fulfill the chemistry major in some way. 
+Which is a list of all chemistry courses and the courses that they enable, if any. Note that it is normal for courses from other areas (such as math and biology) to also appear if they help fulfill the chemistry major in some way or are prerequisites for some chemistry courses. 
 
 After you've seen your course eligibility and explored major-specific courses, our third feature helps you figure out what to actually take next semester. Based on the input file you initially provided (your majors, GEs left, preferred campuses and times, and whether you're prioritizing major or GE requirements), the system will ask:
+
 ```text
 How many courses would you like us to recommend?
 ```
@@ -142,16 +143,17 @@ This means the system has:
 - Prioritized classes at Pomona in the morning or afternoon,
 - And only returned ones you haven't already completed.
 
-This feature is perfect if you're overwhelmed by the number of classes out there and just want a clear, personalized list of what to take. And because the system filters out ineligible courses, you know that everything on the list is actually within reach.
+This feature is suitable if you're overwhelmed by the number of classes out there and just want a clear, personalized list of what to take. And because the system filters out ineligible courses, you know that everything on the list is actually within reach.
 
-The final feature helps you look ahead: it tells you which major and minor courses you still need to complete, and which of those you're currently eligible to take. This is especially useful when planning future semesters or tracking your graduation progress.
+The final feature helps you look ahead: it looks at your indicated major and minor and tells you which major and minor courses you still need to complete, and which of those you're currently eligible to take. This is especially useful when planning future semesters or tracking your graduation progress.
+
 EasyStration will ask:
 ```text
 Would you like to see your remaining major classes?
 ```
-If you respond yes, it will return a breakdown by major and minor (if applicable). Here are two example outputs:
+If you respond yes, it will return a breakdown by major and minor (if applicable). Here is an example output:
 
-**Example 1 - ECON Major**
+**Example - ECON and CS Major**
 ```text
 Remaining courses for ECON:
 - ECON101: MacroeconomicTheory
@@ -161,9 +163,7 @@ Remaining courses for ECON:
 
 Out of those, the courses you are currently eligible for are:
 - ECON123: InternationalEconomics
-```
-**Example 2 - CSCI Major**
-```text
+
 Remaining courses for CSCI:
 - CSCI054: DiscreteMathandFunc.Prog.
 - CSCI062: DataStructuresAdvProgramming
@@ -178,6 +178,7 @@ If you've already completed all required courses for a major or minor, EasyStrat
 You've completed all required courses for MATH!
 ```
 This final step provides a big-picture view so you not only know what to register for now, but also where you're headed.
+
 
 # EasyStration Public API
 
