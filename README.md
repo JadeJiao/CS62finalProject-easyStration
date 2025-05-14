@@ -233,7 +233,7 @@ Creates a prerequisite edge from `course1` to `course2`.
 ```java
 ArrayList<Course> getNextCourses(Course course)
 ```
-Returns a list of courses that can be taken after the given course.
+Returns a list of courses has the given course as prerequisite. The list can be blank if a course is not a prerequisite for any other course.
 For example, 
 if we create a course object using CSCI054 and call getNextCourses on CSCI054:
 ```java
@@ -302,6 +302,11 @@ Public methods (helper functions) include:
 boolean checkEligibility(Course course)
 ```
 Returns true if the user has met the prerequisites for the given course.
+
+```java
+public static void recommendCourses(int recNum) {
+```
+Outputs a list of course recommendations of length recNum dictated by the user.
 
 ```java
 void remainingCourses()
