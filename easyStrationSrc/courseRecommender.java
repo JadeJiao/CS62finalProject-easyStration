@@ -3,6 +3,8 @@
  * based on the user's preferences and background.
  * It gives a score to each eligible course and ranks them using a custom comparator via a priority queue.
  * Preferences include major/minor focus, general education requirements, preferred class time, and campus.
+ * 
+ * @author Jade Jiao, Diane Nguyen
  */
 
  import java.util.*;
@@ -89,7 +91,7 @@
                  String[] userGE = userInput[4].split(",");
                  for (String ge : userGE) {
                      if (c.getGEs().contains(ge)) {
-                         score += 7;
+                         score += 8;
                      }
                  }
              }

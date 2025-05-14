@@ -8,6 +8,7 @@
  * - Giving course recommendations
  * - Displayinig remaining courses to complete a major
  * 
+ * @author Jade Jiao, Diane Nguyen
  */
 
  import java.io.*;

@@ -1,6 +1,8 @@
 /**
  * The CourseGraph class represents a directed graph of courses within a major area.
  * Each node is an object of type Course, and directed edges point from a prerequisite course to the courses it enables.
+ * 
+ * @author Jade Jiao, Diane Nguyen
  */
 
  import java.util.*;
