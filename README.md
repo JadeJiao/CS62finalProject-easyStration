@@ -12,7 +12,7 @@ Course EasyStration is an interactive course planning assistant designed to help
 - Show all remaining eligible courses left in user's indicated major and minor
 
 # Running the code
-When you run easyStration, it will prompt you for a filename that contains information pertinent to your registration. The format of the file must be as follows: 
+To run the code, go to the easyStrationSrc folder that contains all our code, and run the easyStration class. When you do, it will prompt you for a filename that contains information pertinent to your registration. The format of the file must be as follows: 
 	
 	(Major 1)
 	(Major 2)
