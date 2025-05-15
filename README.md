@@ -1,7 +1,15 @@
-# CS62finalProject-easyStration
+# Course EasyStration
+**Authors:** Diane Nguyen, Jade Jiao
+**Pomona College - CS62 Final Project**
 
-# Introduction 
+# Introduction
 Course EasyStration is an interactive course planning assistant designed to help our fellow college students navigate through the process of course registration–a semesterly experience that makes every student scratch their head. The software will allow our fellow students to navigate complex degree requirements, general education (GE) paths, and course prerequisites with greater ease and clarity. The tool allows users to check their eligibility for courses, view all major-specific classes and their dependencies, receive personalized course recommendations based on academic interests and availability, and identify future courses they are eligible to take based on their current standing. In this way, EasyStration provides personalized features in the pre-registration course search process that help our peers make more informed and efficient registration decisions. 
+
+**Key Features:**
+- Check course eligibility using parsed prerequisite logic
+- Visualize course dependencies in a major-specific graph
+- Personalized course recommendations based on GE, time, campus, and major preferences
+- Show all remaining eligible courses left in user's indicated major and minor
 
 # Running the code
 When you run easyStration, it will prompt you for a filename that contains information pertinent to your registration. The format of the file must be as follows: 
@@ -9,11 +17,11 @@ When you run easyStration, it will prompt you for a filename that contains infor
 	(Major 1)
 	(Major 2)
 	(Minor)
-	(Course history)
-	(Unfulfilled GE areas)
-	(Time preference: morning, afternoon, and/or evening)
-	(Campus preference)
-	(Whether you are seeking to fulfill more major or GE classes this semester)
+	(Course history, comma-separated, no spaces)
+	(Unfulfilled GE areas, comma-separated)
+	(Time preference, ordered e.g. morning, afternoon, and/or evening)
+	(Campus preferences, ordered e.g. PO,SC,PZ,HM)
+	(Whether you are seeking to fulfill more major or GE classes this semester - "major", "GEs", or "both")
 	
 We have placed multiple sample user files in the package, which you should use to run our code. If you decide to create your own file, keep the following instructions in mind:
 Your major and minor must follow the standard major code (2-4 capital letters) for each major: e.g. ECON, CSCI, MUS.
